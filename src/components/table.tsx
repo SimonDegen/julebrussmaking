@@ -6,7 +6,10 @@ function Table({ changing }: { changing: boolean }) {
     console.log("update");
   }, [changing]);
   return (
-    <div className="overflow-x-auto hero min-h-screen text-white" id="table">
+    <div
+      className="overflow-x-auto hero min-h-screen text-white"
+      id="table"
+    >
       <table className="table">
         {/* head */}
         <thead>
